@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* Styling the header */
+nav {
+  background-color: #054c73;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-inline: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+nav ul li {
+  cursor: pointer;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav h1 {
+  font-size: 2rem;
+}
+/* Ends here */
+/* Styling the home */
+.home {
+  background-image: url(./assets/Mask\ Group.jpg);
+  height: 750px;
+}
+.home_top {
+  background-color: #dfe9f4;
+  width: 640px;
+  height: 443px;
+  float: right;
+  margin-right: 150px;
+  margin-top: 150px;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.home div h1 {
+  font-size: 3rem;
+  color: #054c73;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.home div .lorem {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.home div button {
+  background-color: #054c73;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.home_bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #dfe9f4;
+}
+/* Ends here */
+/* Styling the services */
+.services {
+  text-align: center;
+  margin-top: 70px;
+}
+.services h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.services p {
+  color: #666666;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.services div {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 70px;
+}
+.img2 {
+  position: relative;
+  bottom: 25px;
+}
+/* ends here */
+/* styling the products */
+.products {
+  text-align: center;
+  margin-top: 70px;
+  background-color: #dfe9f4;
+  height: 600px;
+  padding-top: 10px;
+}
+.products h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.products p {
+  color: #666666;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.products h5 {
+  color: black;
+  font-weight: bolder;
+}
+
+.bootstrap {
+  width: 350px;
+  margin: 0 auto;
+}
+.products .lorem {
+  margin-bottom: 50px;
+}
+/* ends here */
+/* styling the gallery */
+.gallery {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.gallery_bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  gap: 50px;
+}
+.gallery p {
+  color: #666666;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+/* ends here */
+/* styling the contact section */
+.contact {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #dfe9f4;
+}
+.contact_input {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+}
+.contact_input input {
+  padding: 15px;
+  width: 300px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.contact_input textarea {
+  color: #666666;
+}
+
+.contact_input button {
+  background-color: #054c73;
+  color: white;
+  padding: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.contact p {
+  color: #666666;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+/* ends here */
+/* styling the footer */
+footer {
+  background-color: #054c73;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer_left .lorem {
+  color: #aaa7b1;
+}
+.footer_left h1 {
+  font-weight: bolder;
+}
+.footer_right {
+  display: flex;
+  gap: 150px;
+}
+.footer_right li {
+  list-style: none;
+  color: #aaa7b1;
+  padding-bottom: 10px;
+}
+.footer_right h3 {
+  padding-bottom: 20px;
+}
+.connect i {
+  color: #aaa7b1;
+  font-size: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.connect p {
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+.footer_bottom {
+  text-align: center;
+  color: #aaa7b1;
+}
+hr {
+  border: 1px solid white;
+}
